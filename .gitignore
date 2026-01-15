@@ -28,9 +28,14 @@ yarn-error.log*
 .env*.local
 .env
 
-# vercel
-.vercel
+# obsidian
+.obsidian
+Templates
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# vitepress
+docs/.vitepress/dist
+docs/.vitepress/cache
