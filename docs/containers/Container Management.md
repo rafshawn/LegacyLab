@@ -1,0 +1,4 @@
+- Options:
+	- [Portainer.io](https://github.com/portainer/portainer)
+	- [Komo.do](https://komo.do/)
+	- Article: [*Why I ditched Portainer for this dead-simple container management tool*](https://www.xda-developers.com/why-ditched-portainer-komodo/)

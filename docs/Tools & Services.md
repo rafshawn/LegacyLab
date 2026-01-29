@@ -1,11 +1,8 @@
 ---
 tags:
-  - Homelab
-  - RaspberryPi
 created: 2026-01-13
 updated: 2026-01-13
 categories:
-  - Homelab
 ---
 - Must have home server services 2025 ([article](https://techhut.tv/must-have-home-server-services-2025))
 # Dashboard
@@ -32,7 +29,7 @@ categories:
 		- [Hagezi Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#tif)
 		- Blocklist Discussion ([Reddit](https://www.reddit.com/r/pihole/comments/1ho2gao/what_adlists_are_mainly_used_these_days/?share_id=G8GozCY4rq0v5gy1BEV0f&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1))
 		- Aggregated Blocklists ([repo](https://github.com/ph00lt0/blocklist))
-- [Home Assistant](www.home-assistant.io): Open source home automation
+- [Home Assistant](https://www.home-assistant.io): Open source home automation
 	- [Setup guide](https://raspberrytips.com/home-assistant-raspberry-pi/#home-assistant-installation-with-docker)
 - [Jellyfin](https://jellyfin.org/): Free Software Media System
 - [Unbound](https://www.nlnetlabs.nl/projects/unbound/about/): DNS resolver

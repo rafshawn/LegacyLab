@@ -1,9 +1,15 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "LegacyLab",
   description: "A VitePress Site",
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

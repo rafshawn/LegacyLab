@@ -6,5 +6,9 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@types/markdown-it-footnote": "^3.0.4",
+    "markdown-it-footnote": "^4.0.0"
   }
 }

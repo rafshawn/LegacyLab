@@ -1,16 +1,15 @@
 ---
 tags:
-  - Homelab
-  - RaspberryPi
 created: 2026-01-13
 updated: 2026-01-13
 categories:
-  - Homelab
+  - Unfinished
+  - Initial Setup
 ---
-Logs are great for debugging and all, but they can also cause a lot of bloat that eventually becomes a strain for the system. Small write operations in high volume is the biggest culprit of causing the SD card on a Pi to wear and fail (see article).
+Logs are great for debugging but can also cause a lot of bloat, eventually becoming a strain for the system. Small write operations in high volume is the biggest culprit of causing the SD card on a Pi to wear and fail (see article).
 # Docker Logging Drivers
 - See [Configure default logging driver](https://docs.docker.com/engine/install/linux-postinstall/#configure-default-logging-driver)
-- Docker's default method of logging is by using a `json-file` that essentially writes logs until there's no more storage space.
+- [[Docker]]'s default method of logging is by using a `json-file` that essentially writes logs until there's no more storage space.
 	- As logs increase in size, so does risk of exhausting disk resources and failing storage (wear).
 	- See [JSON File logging driver](https://docs.docker.com/engine/logging/drivers/json-file/)
 - Avoid issues with overusing disk for log data by enabling log rotation in `daemon.json`
@@ -55,6 +54,8 @@ sudo systemctl restart docker
 - Drawbacks of an SD card is that it has limited lifespan.
 - Reduce load by moving log files to RAM.
 - Only affects logs written to /var/log and wont have any effects on Docker logs or logs inside containers.
+- Extra resources:
+	- [DeepWiki](https://deepwiki.com/azlux/log2ram/1.1-installation)
 
 ## Installation
 
