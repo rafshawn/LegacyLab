@@ -6,10 +6,9 @@ created: 2026-01-18
 updated:
 categories:
   - Unfinished
+title: DNS Resolution
 ---
 DNS resolution is the process that translates human-readable domain names, like www.example.com, into machine-readable IP addresses, such as `192.0.2.1`. This is a process that allows users to access websites without needing to remember complex numerical addresses.
-
-If you're looking to set up a secure local DNS resolver, see Unbound
 
 Learning Resources:
 - https://www.datadoghq.com/knowledge-center/dns-resolution/
@@ -34,3 +33,22 @@ Public DNS Resolvers:
 		- The only large DNS resolver with a founding charter that includes privacy as a primary goal.
 
 If you choose to stick with a large DNS resolver, I recommend using Quad9.
+
+Otherwise, if you're looking to set up a secure local DNS resolver, see [[Unbound]]
+
+::: code-group
+```js test
+test
+```
+
+```zsh
+test
+```
+:::
+
+::: tabs
+== tab a
+a content
+== tab b
+b content
+:::

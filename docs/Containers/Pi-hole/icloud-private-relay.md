@@ -1,4 +1,5 @@
 ---
+title: iCloud Private Relay
 tags:
   - Networking
   - Pi-hole

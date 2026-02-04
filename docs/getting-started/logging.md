@@ -1,15 +1,17 @@
 ---
 tags:
+  - Setup
 created: 2026-01-13
 updated: 2026-01-13
 categories:
   - Unfinished
   - Initial Setup
+title: Logging
 ---
 Logs are great for debugging but can also cause a lot of bloat, eventually becoming a strain for the system. Small write operations in high volume is the biggest culprit of causing the SD card on a Pi to wear and fail (see article).
 # Docker Logging Drivers
 - See [Configure default logging driver](https://docs.docker.com/engine/install/linux-postinstall/#configure-default-logging-driver)
-- [[Docker]]'s default method of logging is by using a `json-file` that essentially writes logs until there's no more storage space.
+- [[docker|Docker]]'s default method of logging is by using a `json-file` that essentially writes logs until there's no more storage space.
 	- As logs increase in size, so does risk of exhausting disk resources and failing storage (wear).
 	- See [JSON File logging driver](https://docs.docker.com/engine/logging/drivers/json-file/)
 - Avoid issues with overusing disk for log data by enabling log rotation in `daemon.json`

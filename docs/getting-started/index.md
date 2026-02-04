@@ -1,5 +1,7 @@
 ---
+title: Getting Started
 tags:
+  - Setup
 created: 2026-01-17
 updated:
 categories:

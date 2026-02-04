@@ -1,4 +1,6 @@
 ---
+title: <% tp.file.title %>
+slug: <% tp.file.title.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '-').toLowerCase() %>
 tags:
 created: 2026-01-13
 updated: 2026-01-13
