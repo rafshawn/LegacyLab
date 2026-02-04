@@ -1,14 +1,16 @@
 ---
+title: Logging
 tags:
   - Setup
+  - Docker
 created: 2026-01-13
 updated: 2026-01-13
 categories:
   - Unfinished
   - Initial Setup
-title: Logging
 ---
-Logs are great for debugging but can also cause a lot of bloat, eventually becoming a strain for the system. Small write operations in high volume is the biggest culprit of causing the SD card on a Pi to wear and fail (see article).
+# Logging
+Logs are essential for debugging but can also cause a lot of bloat, eventually becoming a strain on the system. Small write operations in high volume is the biggest culprit of causing the SD card on a Pi to wear and fail (see article).
 # Docker Logging Drivers
 - See [Configure default logging driver](https://docs.docker.com/engine/install/linux-postinstall/#configure-default-logging-driver)
 - [[docker|Docker]]'s default method of logging is by using a `json-file` that essentially writes logs until there's no more storage space.

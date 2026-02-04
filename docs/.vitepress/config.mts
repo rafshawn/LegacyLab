@@ -29,8 +29,9 @@ export default defineConfig({
         text: 'Getting Started',
         link: '/getting-started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'OS Install and Setup', link: '/getting-started/os-install-and-setup' },
+          { text: 'Docker', link: '/getting-started/docker' },
+          { text: 'Logging', link: '/getting-started/logging' },
         ]
       },
       {
